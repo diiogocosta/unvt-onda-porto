@@ -2,9 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Supply";
+  src: url("./fonts/Supply-Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --yellow: #ffe05c;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,8 +23,16 @@
   }
 }
 
+.transform {
+  transform-origin: center;
+}
+
+.-rotate-90 {
+  transform: rotate(-90deg);
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Supply, Helvetica, sans-serif;
 }
