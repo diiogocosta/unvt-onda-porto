@@ -1,9 +1,7 @@
-import Image from "next/image";
-
 export const WhatsAppCTA = () => {
   return (
     <a
-      href="https://wa.me/+351913030421"
+      href="https://wa.me/+351913030421?text=Olá,%20recebi%20o%20vosso%20convite%20e%20gostava%20de%20saber%20mais%20sobre%20os%20encontros."
       target="_blank"
       rel="noopener noreferrer"
       className="bg-[#25D366] text-white py-4 flex items-center justify-center gap-3 hover:bg-[#20bd5a] transition-colors duration-300"

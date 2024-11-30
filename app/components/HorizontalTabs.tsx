@@ -1,8 +1,13 @@
 "use client";
 import { useState } from "react";
 import { CampusCard } from "./CampusCard";
+import { QuemSomos } from "./QuemSomos";
 
-export const HorizontalTabs = ({ selectedColor }) => {
+export const HorizontalTabs = ({
+  selectedColor,
+}: {
+  selectedColor: string;
+}) => {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabs = [
@@ -12,7 +17,7 @@ export const HorizontalTabs = ({ selectedColor }) => {
     },
     {
       title: "QUEM SOMOS?",
-      content: <CampusCard />,
+      content: <QuemSomos />,
     },
   ];
 

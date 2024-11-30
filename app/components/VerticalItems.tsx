@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 
-export const VerticalItems = ({ getSelectedColor }) => {
+export const VerticalItems = ({
+  getSelectedColor,
+}: {
+  getSelectedColor: (color: string) => void;
+}) => {
   const [selectedItem, setSelectedItem] = useState(0);
 
   const items = [

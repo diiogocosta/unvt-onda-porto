@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import { CampusCard } from "./components/CampusCard";
 import { VerticalItems } from "./components/VerticalItems";
 import { WhatsAppCTA } from "./components/WhatsappCTA";
 import { Footer } from "./components/Footer";
