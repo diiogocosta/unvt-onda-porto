@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Supply";
-  src: url("./fonts/Supply-Regular.otf") format("otf");
+  src: url("/fonts/Supply-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -29,6 +29,10 @@
 
 .-rotate-90 {
   transform: rotate(-90deg);
+}
+
+* {
+  font-family: Supply, Helvetica, sans-serif;
 }
 
 body {

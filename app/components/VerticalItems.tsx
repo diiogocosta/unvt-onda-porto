@@ -42,7 +42,7 @@ export const VerticalItems = ({
             className="w-[42px] h-full cursor-pointer flex items-center justify-center relative group"
             style={{ backgroundColor: item.bgColor }}
           >
-            <span className="text-black text-md transform -rotate-90 whitespace-nowrap">
+            <span className="font-bold text-black text-md transform -rotate-90 whitespace-nowrap">
               {item.title}
             </span>
           </div>
