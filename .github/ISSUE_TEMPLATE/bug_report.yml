@@ -71,13 +71,6 @@ body:
     validations:
       required: true
 
-  - type: screenshots
-    id: screenshots
-    attributes:
-      label: Screenshots
-      description: If applicable, add screenshots or videos that illustrate the problem.
-    validations:
-      required: false
 
   - type: textarea
     id: possible-solution

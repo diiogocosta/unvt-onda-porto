@@ -2,8 +2,8 @@ name: Feature request
 description: Create a new feature request
 title: "[Feature Request]: "
 labels:
-  - status:needs-rfc
   - type:feature-request
+  - status:needs-rfc
 body:
   - type: markdown
     attributes:
