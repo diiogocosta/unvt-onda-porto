@@ -1,0 +1,75 @@
+name: Feature request
+description: Create a new feature request
+title: "[Feature Request]: "
+labels: ["status:needs-rfc", "type:feature-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an improvement to DT-DDS! Please fill out the fields below.
+
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: Provide a brief description of the feature you would like to see added to the UI component library.
+      placeholder: Ex: Addition of a Skeleton component for loading states.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Problem Statement
+      description: Explain WHY this should be added to DT-DDS.
+      placeholder: What problem are we solving? What are the current limitations?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: Clearly explain how you envision the new feature to work and what changes it will bring to the UI component library.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Include any additional information, links, or references that might be helpful for understanding the feature request.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: What is the urgency of this feature?
+      options:
+        - Low Priority
+        - Medium Priority
+        - High Priority
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      description: What is the level of impact for DT-DDS users?
+      options:
+        - Low Impact
+        - Medium Impact
+        - High Impact
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact-justification
+    attributes:
+      label: Impact and Priority Justification
+      description: Provide your assessment considering factors like usefulness, potential adoption by users, complexity, etc.
+    validations:
+      required: true

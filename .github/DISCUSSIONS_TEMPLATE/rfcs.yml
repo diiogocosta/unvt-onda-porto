@@ -1,0 +1,57 @@
+title: '[RFC]: '
+labels: ['rfc:in-review']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a technical change! Please fill out the fields below so the community can review it.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Executive Summary
+      description: A short sentence explaining what this RFC is about.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why are we doing this? What problem are we solving?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Detailed Technical Proposal
+      description: How will this be implemented? Include code examples if needed.
+      placeholder: |
+        ### API Changes
+        ...
+        ### Data Structure
+        ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact Level
+      options:
+        - Low (Internal refactor)
+        - Medium (Change to internal functions)
+        - High (Breaking Change / Architecture Change)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Initial Checklist
+      options:
+        - label: 'I have checked that there is no similar open RFC.'
+          required: true
+        - label: 'This proposal follows the project design standards.'
+          required: true
