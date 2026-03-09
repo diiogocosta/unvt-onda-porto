@@ -1,7 +1,9 @@
 name: Feature request
 description: Create a new feature request
 title: "[Feature Request]: "
-labels: ["status:needs-rfc", "type:feature-request"]
+labels:
+  - status:needs-rfc
+  - type:feature-request
 body:
   - type: markdown
     attributes:
@@ -13,7 +15,7 @@ body:
     attributes:
       label: Overview
       description: Provide a brief description of the feature you would like to see added to the UI component library.
-      placeholder: Ex: Addition of a Skeleton component for loading states.
+      placeholder: "Ex: Addition of a Skeleton component for loading states."
     validations:
       required: true
 
@@ -22,7 +24,7 @@ body:
     attributes:
       label: Problem Statement
       description: Explain WHY this should be added to DT-DDS.
-      placeholder: What problem are we solving? What are the current limitations?
+      placeholder: "What problem are we solving? What are the current limitations?"
     validations:
       required: true
 

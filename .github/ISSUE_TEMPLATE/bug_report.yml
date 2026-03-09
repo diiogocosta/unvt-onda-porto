@@ -1,7 +1,9 @@
 name: Bug report
 description: File a bug report
 title: "[Bug]: "
-labels: ["type:bug", "status:triage"]
+labels:
+  - type:bug
+  - status:triage
 body:
   - type: markdown
     attributes:
@@ -13,7 +15,7 @@ body:
     attributes:
       label: Description
       description: A clear and concise description of the bug you encountered.
-      placeholder: Ex: The 'Submit' button does not change color when hovered.
+      placeholder: "Ex: The 'Submit' button does not change color when hovered."
     validations:
       required: true
 
@@ -49,7 +51,7 @@ body:
     id: package-version
     attributes:
       label: Package version(s)
-      placeholder: Ex: @dt-dds/core@1.2.3
+      placeholder: "Ex: @dt-dds/core@1.2.3"
     validations:
       required: true
 
@@ -57,7 +59,7 @@ body:
     id: os
     attributes:
       label: Operating System
-      placeholder: Ex: macOS Ventura, Windows 11
+      placeholder: "Ex: macOS Ventura, Windows 11"
     validations:
       required: true
 
@@ -65,7 +67,7 @@ body:
     id: browser
     attributes:
       label: Browser name and version
-      placeholder: Ex: Chrome 120, Safari 17
+      placeholder: "Ex: Chrome 120, Safari 17"
     validations:
       required: true
 

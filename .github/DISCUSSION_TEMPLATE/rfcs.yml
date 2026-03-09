@@ -1,5 +1,6 @@
 title: '[RFC]: '
-labels: ['rfc:in-review']
+labels:
+  - rfc:in-review
 body:
   - type: markdown
     attributes:
